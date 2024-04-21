@@ -39,3 +39,5 @@ Upload the Total-scRef-final.txt file on Cibersortx and then go to “Create Sig
 ## Step 5: Impute cell fractions using your signature matrix
 
 Upload your bulk RNA-seq mixture file. Go to “Impute cell fractions” on Cibersortx and click on “Custom” again. From “Signature matrix file*” drop-down pick the signature matrix you created in the last step. From the second drop-down pick your mixture file. Then Enable Batch Correction. Here since you have used your own sourceGEP you can use B-mode, choose your GEP file you created in step 4 uncheck the normalization and hit run. 
+
+#### Note: These steps were done for acquiring the signature matrix and cells fractions of non-immune cells. For the immune cells we used the already available immgen signatures.
